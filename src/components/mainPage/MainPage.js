@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import CardList from '../cardList/CardList';
 import CardDetails from '../cardDetails/CardDetails'
 import Header from '../header/Header';
+import Intro from '../intro/Intro'
 import { BrowserRouter, Route,  Switch, Link} from 'react-router-dom';
 export class MainPage extends Component {
     componentDidMount() {
@@ -16,6 +17,7 @@ export class MainPage extends Component {
             <div className="tc white">
             <BrowserRouter>
                 <Link className='link dim' to='/' > <Header/></Link>
+                <Intro />
                <Switch>
                <Route exact path="/" render={() => (
                     isPending ? <h1>Loading...</h1> :
