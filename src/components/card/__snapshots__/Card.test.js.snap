@@ -27,15 +27,17 @@ ShallowWrapper {
   Symbol(enzyme.__node__): Object {
     "instance": null,
     "key": undefined,
-    "nodeType": "host",
+    "nodeType": "function",
     "props": Object {
-      "children": Array [
+      "children": <div
+        className="bg-white black dib br3 ma2 grow bw2 shadow-2-l pointer"
+      >
         <img
           alt="phones"
           className="br3"
           height="200"
           width="auto"
-        />,
+        />
         <div>
           <h2 />
           <p
@@ -48,102 +50,20 @@ ShallowWrapper {
               💲
             </span>
           </p>
-        </div>,
+        </div>
+      </div>,
+      "phone": Array [
+        Object {
+          "id": 1,
+          "imageFileName": "http://localhost:3002/images/Honor_10.png",
+          "name": "Nokia",
+          "price": "2",
+        },
       ],
-      "className": "bg-white black dib br3 ma2 grow bw2 shadow-2-l pointer",
+      "to": "/details/undefined",
     },
     "ref": null,
-    "rendered": Array [
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "alt": "phones",
-          "className": "br3",
-          "height": "200",
-          "src": undefined,
-          "width": "auto",
-        },
-        "ref": null,
-        "rendered": null,
-        "type": "img",
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": Array [
-            <h2 />,
-            <p
-              className="b"
-            >
-              <span
-                aria-label="money-emoji"
-                role="img"
-              >
-                💲
-              </span>
-            </p>,
-          ],
-        },
-        "ref": null,
-        "rendered": Array [
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": undefined,
-            },
-            "ref": null,
-            "rendered": null,
-            "type": "h2",
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": Array [
-                undefined,
-                <span
-                  aria-label="money-emoji"
-                  role="img"
-                >
-                  💲
-                </span>,
-              ],
-              "className": "b",
-            },
-            "ref": null,
-            "rendered": Array [
-              undefined,
-              Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "host",
-                "props": Object {
-                  "aria-label": "money-emoji",
-                  "children": "💲",
-                  "role": "img",
-                },
-                "ref": null,
-                "rendered": "💲",
-                "type": "span",
-              },
-            ],
-            "type": "p",
-          },
-        ],
-        "type": "div",
-      },
-    ],
-    "type": "div",
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
+    "rendered": Object {
       "instance": null,
       "key": undefined,
       "nodeType": "host",
@@ -260,6 +180,190 @@ ShallowWrapper {
         },
       ],
       "type": "div",
+    },
+    "type": Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "displayName": "Link",
+      "propTypes": Object {
+        "innerRef": [Function],
+        "onClick": [Function],
+        "replace": [Function],
+        "target": [Function],
+        "to": [Function],
+      },
+      "render": [Function],
+    },
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": <div
+          className="bg-white black dib br3 ma2 grow bw2 shadow-2-l pointer"
+        >
+          <img
+            alt="phones"
+            className="br3"
+            height="200"
+            width="auto"
+          />
+          <div>
+            <h2 />
+            <p
+              className="b"
+            >
+              <span
+                aria-label="money-emoji"
+                role="img"
+              >
+                💲
+              </span>
+            </p>
+          </div>
+        </div>,
+        "phone": Array [
+          Object {
+            "id": 1,
+            "imageFileName": "http://localhost:3002/images/Honor_10.png",
+            "name": "Nokia",
+            "price": "2",
+          },
+        ],
+        "to": "/details/undefined",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <img
+              alt="phones"
+              className="br3"
+              height="200"
+              width="auto"
+            />,
+            <div>
+              <h2 />
+              <p
+                className="b"
+              >
+                <span
+                  aria-label="money-emoji"
+                  role="img"
+                >
+                  💲
+                </span>
+              </p>
+            </div>,
+          ],
+          "className": "bg-white black dib br3 ma2 grow bw2 shadow-2-l pointer",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "alt": "phones",
+              "className": "br3",
+              "height": "200",
+              "src": undefined,
+              "width": "auto",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "img",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <h2 />,
+                <p
+                  className="b"
+                >
+                  <span
+                    aria-label="money-emoji"
+                    role="img"
+                  >
+                    💲
+                  </span>
+                </p>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": undefined,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "h2",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    undefined,
+                    <span
+                      aria-label="money-emoji"
+                      role="img"
+                    >
+                      💲
+                    </span>,
+                  ],
+                  "className": "b",
+                },
+                "ref": null,
+                "rendered": Array [
+                  undefined,
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "aria-label": "money-emoji",
+                      "children": "💲",
+                      "role": "img",
+                    },
+                    "ref": null,
+                    "rendered": "💲",
+                    "type": "span",
+                  },
+                ],
+                "type": "p",
+              },
+            ],
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+      "type": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "displayName": "Link",
+        "propTypes": Object {
+          "innerRef": [Function],
+          "onClick": [Function],
+          "replace": [Function],
+          "target": [Function],
+          "to": [Function],
+        },
+        "render": [Function],
+      },
     },
   ],
   Symbol(enzyme.__options__): Object {
