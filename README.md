@@ -1,5 +1,7 @@
 # Phone Catalogue
 
+![](assets/Phone&#32;catalogue.gif)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). Then it was added an Express server in the `server` directory. The server is proxied via the `proxy` key in `package.json`.
 
 Project done for the [Guidesmiths](https://www.guidesmiths.com/) interview code challenge about React ( [more info here](https://github.com/guidesmiths/interview-code-challenges/blob/master/react/phone-catalogue) )
@@ -24,18 +26,21 @@ Run the React application with the command:
 ```bash
 npm start
 ```
+![](assets/npm&#32;start.gif)
 
 You can start the server with the command:
 
 ```bash
 npm run server
 ```
+![](assets/npm&#32;run&#32;server.gif)
 
 Run both with the command:
 
 ```bash
 npm run dev
 ```
+![](assets/npm&#32;run&#32;dev.gif)
 
 The React application will run on port 3000 and the server port 3002.
 
@@ -47,3 +52,5 @@ Launch the test runner in the interactive watch mode.
 ```bash
 npm test
 ```
+
+![](assets/npm&#32;test.gif)
