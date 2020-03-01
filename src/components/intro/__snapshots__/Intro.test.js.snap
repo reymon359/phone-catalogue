@@ -19,32 +19,32 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": <p
-        className="p  near-white pb4"
+        className="f4 near-white pb4"
       >
         Project done by  
         <a
-          className="link underline near-white hover-orange"
+          className="link underline near-white hover-navy"
           href="https://ramonmorcillo.com/"
         >
           Ramón Morcillo
         </a>
         for the 
         <a
-          className="link underline near-white hover-orange"
+          className="link underline near-white hover-navy"
           href="https://www.guidesmiths.com/"
         >
           Guidesmiths
         </a>
          interview code challenge about React ( 
         <a
-          className="link underline near-white hover-orange"
+          className="link underline near-white hover-navy"
           href="https://github.com/guidesmiths/interview-code-challenges/blob/master/react/phone-catalogue"
         >
           more info here
         </a>
          ). You can find the source code 
         <a
-          className="link underline near-white hover-orange"
+          className="link underline near-white hover-navy"
           href="https://github.com/reymon359/phone-catalogue"
         >
           here
@@ -61,35 +61,35 @@ ShallowWrapper {
         "children": Array [
           "Project done by  ",
           <a
-            className="link underline near-white hover-orange"
+            className="link underline near-white hover-navy"
             href="https://ramonmorcillo.com/"
           >
             Ramón Morcillo
           </a>,
           "for the ",
           <a
-            className="link underline near-white hover-orange"
+            className="link underline near-white hover-navy"
             href="https://www.guidesmiths.com/"
           >
             Guidesmiths
           </a>,
           " interview code challenge about React ( ",
           <a
-            className="link underline near-white hover-orange"
+            className="link underline near-white hover-navy"
             href="https://github.com/guidesmiths/interview-code-challenges/blob/master/react/phone-catalogue"
           >
             more info here
           </a>,
           " ). You can find the source code ",
           <a
-            className="link underline near-white hover-orange"
+            className="link underline near-white hover-navy"
             href="https://github.com/reymon359/phone-catalogue"
           >
             here
           </a>,
           ".",
         ],
-        "className": "p  near-white pb4",
+        "className": "f4 near-white pb4",
       },
       "ref": null,
       "rendered": Array [
@@ -100,7 +100,7 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": "Ramón Morcillo",
-            "className": "link underline near-white hover-orange",
+            "className": "link underline near-white hover-navy",
             "href": "https://ramonmorcillo.com/",
           },
           "ref": null,
@@ -114,7 +114,7 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": "Guidesmiths",
-            "className": "link underline near-white hover-orange",
+            "className": "link underline near-white hover-navy",
             "href": "https://www.guidesmiths.com/",
           },
           "ref": null,
@@ -128,7 +128,7 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": "more info here",
-            "className": "link underline near-white hover-orange",
+            "className": "link underline near-white hover-navy",
             "href": "https://github.com/guidesmiths/interview-code-challenges/blob/master/react/phone-catalogue",
           },
           "ref": null,
@@ -142,7 +142,7 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": "here",
-            "className": "link underline near-white hover-orange",
+            "className": "link underline near-white hover-navy",
             "href": "https://github.com/reymon359/phone-catalogue",
           },
           "ref": null,
@@ -162,32 +162,32 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": <p
-          className="p  near-white pb4"
+          className="f4 near-white pb4"
         >
           Project done by  
           <a
-            className="link underline near-white hover-orange"
+            className="link underline near-white hover-navy"
             href="https://ramonmorcillo.com/"
           >
             Ramón Morcillo
           </a>
           for the 
           <a
-            className="link underline near-white hover-orange"
+            className="link underline near-white hover-navy"
             href="https://www.guidesmiths.com/"
           >
             Guidesmiths
           </a>
            interview code challenge about React ( 
           <a
-            className="link underline near-white hover-orange"
+            className="link underline near-white hover-navy"
             href="https://github.com/guidesmiths/interview-code-challenges/blob/master/react/phone-catalogue"
           >
             more info here
           </a>
            ). You can find the source code 
           <a
-            className="link underline near-white hover-orange"
+            className="link underline near-white hover-navy"
             href="https://github.com/reymon359/phone-catalogue"
           >
             here
@@ -204,35 +204,35 @@ ShallowWrapper {
           "children": Array [
             "Project done by  ",
             <a
-              className="link underline near-white hover-orange"
+              className="link underline near-white hover-navy"
               href="https://ramonmorcillo.com/"
             >
               Ramón Morcillo
             </a>,
             "for the ",
             <a
-              className="link underline near-white hover-orange"
+              className="link underline near-white hover-navy"
               href="https://www.guidesmiths.com/"
             >
               Guidesmiths
             </a>,
             " interview code challenge about React ( ",
             <a
-              className="link underline near-white hover-orange"
+              className="link underline near-white hover-navy"
               href="https://github.com/guidesmiths/interview-code-challenges/blob/master/react/phone-catalogue"
             >
               more info here
             </a>,
             " ). You can find the source code ",
             <a
-              className="link underline near-white hover-orange"
+              className="link underline near-white hover-navy"
               href="https://github.com/reymon359/phone-catalogue"
             >
               here
             </a>,
             ".",
           ],
-          "className": "p  near-white pb4",
+          "className": "f4 near-white pb4",
         },
         "ref": null,
         "rendered": Array [
@@ -243,7 +243,7 @@ ShallowWrapper {
             "nodeType": "host",
             "props": Object {
               "children": "Ramón Morcillo",
-              "className": "link underline near-white hover-orange",
+              "className": "link underline near-white hover-navy",
               "href": "https://ramonmorcillo.com/",
             },
             "ref": null,
@@ -257,7 +257,7 @@ ShallowWrapper {
             "nodeType": "host",
             "props": Object {
               "children": "Guidesmiths",
-              "className": "link underline near-white hover-orange",
+              "className": "link underline near-white hover-navy",
               "href": "https://www.guidesmiths.com/",
             },
             "ref": null,
@@ -271,7 +271,7 @@ ShallowWrapper {
             "nodeType": "host",
             "props": Object {
               "children": "more info here",
-              "className": "link underline near-white hover-orange",
+              "className": "link underline near-white hover-navy",
               "href": "https://github.com/guidesmiths/interview-code-challenges/blob/master/react/phone-catalogue",
             },
             "ref": null,
@@ -285,7 +285,7 @@ ShallowWrapper {
             "nodeType": "host",
             "props": Object {
               "children": "here",
-              "className": "link underline near-white hover-orange",
+              "className": "link underline near-white hover-navy",
               "href": "https://github.com/reymon359/phone-catalogue",
             },
             "ref": null,

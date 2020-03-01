@@ -19,9 +19,15 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": <h1
-        className="f1"
+        className="f1  near-white pb2"
       >
         Phone Catalogue
+        <span
+          aria-label="phone-emoji"
+          role="img"
+        >
+          📱
+        </span>
       </h1>,
     },
     "ref": null,
@@ -30,11 +36,34 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "host",
       "props": Object {
-        "children": "Phone Catalogue",
-        "className": "f1",
+        "children": Array [
+          "Phone Catalogue",
+          <span
+            aria-label="phone-emoji"
+            role="img"
+          >
+            📱
+          </span>,
+        ],
+        "className": "f1  near-white pb2",
       },
       "ref": null,
-      "rendered": "Phone Catalogue",
+      "rendered": Array [
+        "Phone Catalogue",
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "aria-label": "phone-emoji",
+            "children": "📱",
+            "role": "img",
+          },
+          "ref": null,
+          "rendered": "📱",
+          "type": "span",
+        },
+      ],
       "type": "h1",
     },
     "type": "div",
@@ -46,9 +75,15 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": <h1
-          className="f1"
+          className="f1  near-white pb2"
         >
           Phone Catalogue
+          <span
+            aria-label="phone-emoji"
+            role="img"
+          >
+            📱
+          </span>
         </h1>,
       },
       "ref": null,
@@ -57,11 +92,34 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": "Phone Catalogue",
-          "className": "f1",
+          "children": Array [
+            "Phone Catalogue",
+            <span
+              aria-label="phone-emoji"
+              role="img"
+            >
+              📱
+            </span>,
+          ],
+          "className": "f1  near-white pb2",
         },
         "ref": null,
-        "rendered": "Phone Catalogue",
+        "rendered": Array [
+          "Phone Catalogue",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "aria-label": "phone-emoji",
+              "children": "📱",
+              "role": "img",
+            },
+            "ref": null,
+            "rendered": "📱",
+            "type": "span",
+          },
+        ],
         "type": "h1",
       },
       "type": "div",

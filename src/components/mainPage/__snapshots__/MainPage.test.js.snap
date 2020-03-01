@@ -43,6 +43,7 @@ ShallowWrapper {
            
           <Header />
         </ForwardRef>
+        <Intro />
         <Switch>
           <Route
             exact={true}
@@ -71,6 +72,7 @@ ShallowWrapper {
              
             <Header />
           </ForwardRef>,
+          <Intro />,
           <Switch>
             <Route
               exact={true}
@@ -123,6 +125,15 @@ ShallowWrapper {
             },
             "render": [Function],
           },
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
         },
         Object {
           "instance": null,
@@ -190,6 +201,7 @@ ShallowWrapper {
              
             <Header />
           </ForwardRef>
+          <Intro />
           <Switch>
             <Route
               exact={true}
@@ -218,6 +230,7 @@ ShallowWrapper {
                
               <Header />
             </ForwardRef>,
+            <Intro />,
             <Switch>
               <Route
                 exact={true}
@@ -270,6 +283,15 @@ ShallowWrapper {
               },
               "render": [Function],
             },
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
           },
           Object {
             "instance": null,
