@@ -1,26 +1,28 @@
-import React from 'react';
-import logo from '../logo.svg';
+import React, { Component } from 'react';
+import { connect } from 'react-redux';
+import { requestPhones } from '../actions/actions';
+
+import MainPage from '../components/mainPage/MainPage';
+
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const mapStateToProps = state => {
+    return {
+        phones: state.requestPhones.phones,
+        isPending: state.requestPhones.isPending
+    };
+};
+
+const mapDispatchToProps = dispatch => {
+    return {
+        onRequestPhones: () => dispatch(requestPhones())
+    };
+};
+
+class App extends Component {
+    render() {
+        return <MainPage {...this.props} />;
+    }
 }
 
-export default App;
+export default connect(mapStateToProps, mapDispatchToProps)(App);
